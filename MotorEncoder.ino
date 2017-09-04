@@ -1,5 +1,10 @@
 
 /* Programação para usar motor com Encoder
+  Criado por Equipe Robonáticos:
+  http://facebook.com/robonaticos
+  Felipe Oliveira Silva, Antonio Pereira, Felipe de Souza Tiozo e Giovanna Diodato
+  Agradecimento e Apoio: Equipe maxBots (Suzano) - Robson Amorim
+
   Para motores LEGO, ligue os fios conforme a imagem:
   http://www.josepino.com/articles/nxt/lego_connector_output.gif
 
