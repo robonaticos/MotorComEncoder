@@ -44,15 +44,17 @@ As portas de interrupção ou também conhecidas como <i>interrupts</i> param a 
 <br><br>
 No caso de leitura de pulsos no encoders devemos usar portas de interrupção para que a leitura seja feita na mudança de estado do encoder e não atrasando todo o processamento do microcontrolador. Em muitos casos, o microcontrolador é responsável por mais de uma tarefa além da leitura dos encoders e por conta disso é indispensável a utilização do uso de portas de interrupção. É altamente recomendável utilizar um único microcontrolador somente para a leitura e controle dos motores/encoders, para não sobrecarregar as suas tarefas e conseguir rodar tranquilamente as tasks do seu robô/projeto.
 <br><br>
+:vibration_mode:: As portas de interrupção no Arduino UNO são as portas 2 e 3 e no Arduino Mega as portas 2, 3, 18, 19, 20, 21
+<br><br>
 Maiores informações de portas de interrupção e quais são elas, consulte em:<br>
 https://www.arduino.cc/en/Reference/AttachInterrupt
 
 <h2>Rodando a programação</h2>
 
 Depois de fazer toda ligação do circuito, instale primeiro a biblioteca "Encoder.h" no seu Arduino.<br><br>
-Link da Biblioteca: <br>
+:blue_book: Link da Biblioteca: <br>
 https://github.com/PaulStoffregen/Encoder<br><br>
-Como instalar uma biblioteca no Arduino: <br>
+:notebook_with_decorative_cover: Como instalar uma biblioteca no Arduino: <br>
 https://www.robocore.net/tutoriais/adicionando-bibliotecas-na-ide-arduino.html
 
 Após feita a instalação da biblioteca, abra a programação 'MotorComEncoder.ino' e teste o código :smile:
