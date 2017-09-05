@@ -11,6 +11,8 @@ A principal especificação de um encoder rotativo é quanto a sua resolução, 
  
 O encoder rotativo mais utilizado em robótica é o encoder de quadratura, pois além contar os pulsos em um determinado elemento rotativo (roda ou motor) ele também identifica o sentido do movimento. Estes encoders podem ser ópticos ou magnéticos e possuem dois sinais de saída (canais A e B) que consiste de duas ondas quadradas defasadas 90° uma da outra, a frequência destas ondas indica a velocidade do elemento que está sendo medido e o sinal da defasagem indica o sentido de giro.
 
+<img src="https://github.com/FeoSilva/MotorComEncoder/blob/master/enc_quadratura.jpg"/>
+
 Fonte: https://kleberufu.wixsite.com/micromousebrasil/single-post/2015/05/01/Encoders
 
 # Ligando o motor LEGO no Arduino
@@ -24,6 +26,8 @@ Os motores LEGO do NXT e EV3 possuem 6 fios em seu conector que tem as seguintes
 - Verde: Alimentação do Encoder (Alimentação 5V do Encoder)
 - Amarelo: Saída 1 do Encoder (Ligar em uma porta de interrupção no Arduino)
 - Azul: Saída 2 do Encoder (Ligar em uma porta de interrupção no Arduino)
+
+<img src="https://github.com/FeoSilva/MotorComEncoder/blob/master/lego_connector_output.gif" />
 
 Abaixo segue foto de todo circuito para realizar os testes com o Encoder:
 [IMAGEM]
@@ -40,14 +44,13 @@ Como instalar uma biblioteca no Arduino: <br>
 https://www.robocore.net/tutoriais/adicionando-bibliotecas-na-ide-arduino.html
 
 Após feita a instalação da biblioteca, abra a programação 'MotorComEncoder.ino' e teste o código :)
-<br><br><br>
-
+<br>
 <b>Realização - Equipe Robonáticos:</b><br>
 <a href="https://github.com/FeoSilva">- Felipe Oliveira Silva </a><br>
 <a href="https://github.com/Antonio6745">- Antônio Pereira Neto </a><br>
 <a href="https://github.com/giovannadiodato">- Giovanna Ferreira Diodato</a><br>
 <a href="https://github.com/felipetiozo">- Felipe de Souza Tiozo</a><br>
 <br>
-Apoio - Equipe maxBots<br>
-<a href="https://github.com/RobAmorim">- Robson Amorim</a>
+Apoio - Equipe maxBots<br><br>
+<a href="https://github.com/RobAmorim">- Robson Amorim</a><br>
 <p align="center"><img src="https://github.com/FeoSilva/OBR-2017/blob/master/M%C3%ADdia/Equipe.jpg" width="600"/></p>
