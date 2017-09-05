@@ -6,7 +6,7 @@ OBS: É possível integrar esse código com um sistema de controle P.I.D. para q
 
 <h2> Como funciona os Encoders de Quadratura </h2>
 O controle em malha aberta é usado para os motores de passos. Já os motores DC necessitam de sistemas mais sofisticados de controle em malha fechada. Como citado em tópicos anteriores o elemento que faz essa realimentação é o encoder rotativo. Este elemento converte movimento rotativo em pulsos elétricos, com isso, ele é capaz de fornecer, quando ligado a um eixo de motor ou em uma roda, informações de distância e velocidade.
-
+<br>
 A principal especificação de um encoder rotativo é quanto a sua resolução, normalmente expressa em pulsos por revolução (ppr). Por exemplo, um encoder de 512ppr gera 512 pulsos quando o elemento ligado a ele (motor ou roda) executa uma volta.
  
 O encoder rotativo mais utilizado em robótica é o encoder de quadratura, pois além contar os pulsos em um determinado elemento rotativo (roda ou motor) ele também identifica o sentido do movimento. Estes encoders podem ser ópticos ou magnéticos e possuem dois sinais de saída (canais A e B) que consiste de duas ondas quadradas defasadas 90° uma da outra, a frequência destas ondas indica a velocidade do elemento que está sendo medido e o sinal da defasagem indica o sentido de giro.
