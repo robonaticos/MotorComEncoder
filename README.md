@@ -10,7 +10,6 @@ O controle em malha aberta é usado para os motores de passos. Já os motores DC
 A principal especificação de um encoder rotativo é quanto a sua resolução, normalmente expressa em pulsos por revolução (ppr). Por exemplo, um encoder de 512ppr gera 512 pulsos quando o elemento ligado a ele (motor ou roda) executa uma volta.
  
 O encoder rotativo mais utilizado em robótica é o encoder de quadratura, pois além contar os pulsos em um determinado elemento rotativo (roda ou motor) ele também identifica o sentido do movimento. Estes encoders podem ser ópticos ou magnéticos e possuem dois sinais de saída (canais A e B) que consiste de duas ondas quadradas defasadas 90° uma da outra, a frequência destas ondas indica a velocidade do elemento que está sendo medido e o sinal da defasagem indica o sentido de giro.
-
 <img src="https://github.com/FeoSilva/MotorComEncoder/blob/master/enc_quadratura.jpg"/>
 
 Fonte: https://kleberufu.wixsite.com/micromousebrasil/single-post/2015/05/01/Encoders
@@ -43,7 +42,7 @@ https://github.com/PaulStoffregen/Encoder<br><br>
 Como instalar uma biblioteca no Arduino: <br>
 https://www.robocore.net/tutoriais/adicionando-bibliotecas-na-ide-arduino.html
 
-Após feita a instalação da biblioteca, abra a programação 'MotorComEncoder.ino' e teste o código :)
+Após feita a instalação da biblioteca, abra a programação 'MotorComEncoder.ino' e teste o código :smile:
 <br><br>
 <b>Realização - Equipe Robonáticos:</b><br>
 <a href="https://github.com/FeoSilva">- Felipe Oliveira Silva </a><br>
