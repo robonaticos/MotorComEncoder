@@ -44,13 +44,13 @@ Como instalar uma biblioteca no Arduino: <br>
 https://www.robocore.net/tutoriais/adicionando-bibliotecas-na-ide-arduino.html
 
 Após feita a instalação da biblioteca, abra a programação 'MotorComEncoder.ino' e teste o código :)
-<br>
+<br><br>
 <b>Realização - Equipe Robonáticos:</b><br>
 <a href="https://github.com/FeoSilva">- Felipe Oliveira Silva </a><br>
 <a href="https://github.com/Antonio6745">- Antônio Pereira Neto </a><br>
 <a href="https://github.com/giovannadiodato">- Giovanna Ferreira Diodato</a><br>
 <a href="https://github.com/felipetiozo">- Felipe de Souza Tiozo</a><br>
 <br>
-Apoio - Equipe maxBots<br><br>
-<a href="https://github.com/RobAmorim">- Robson Amorim</a><br>
+Apoio - Equipe maxBots<br>
+<a href="https://github.com/RobAmorim">- Robson Amorim</a><br><br>
 <p align="center"><img src="https://github.com/FeoSilva/OBR-2017/blob/master/M%C3%ADdia/Equipe.jpg" width="600"/></p>
