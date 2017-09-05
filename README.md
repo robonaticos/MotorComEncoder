@@ -1,5 +1,6 @@
 # Girando seu motor LEGO com Encoder no Arduino
-
+<img src="https://github.com/FeoSilva/MotorComEncoder/blob/master/Capa.jpg" />
+<br>
 Já tentou utilizar o encoder dos motores LEGO e não conseguiu? <br>
 Nessa programação é possível fazer a contagem dos pulsos do Encoder e girar até determinado número de pulsos.<br><br>
 OBS: É possível integrar esse código com um sistema de controle P.I.D. para que melhore a perfomance e a precisão do giro do motor.
@@ -29,7 +30,8 @@ Os motores LEGO do NXT e EV3 possuem 6 fios em seu conector que tem as seguintes
 <img src="https://github.com/FeoSilva/MotorComEncoder/blob/master/lego_connector_output.gif" />
 
 Abaixo segue foto de todo circuito para realizar os testes com o Encoder:<br>
-[IMAGEM]
+<img src="https://github.com/FeoSilva/MotorComEncoder/blob/master/Esquematico.png" />
+https://www.tinkercad.com/things/9quqieeksfp
 
 Informações técnicas dos motores de LEGO você encontra em: <br>
 http://www.philohome.com/motors/motorcomp.htm
@@ -46,7 +48,7 @@ Após feita a instalação da biblioteca, abra a programação 'MotorComEncoder.
 <br><br>
 <b>Realização - Equipe Robonáticos:</b><br>
 <a href="https://github.com/FeoSilva">- Felipe Oliveira Silva </a><br>
-<a href="https://github.com/Antonio6745">- Antônio Pereira Neto </a><br>
+<a href="https://github.com/Antonio6745">- Antonio Pereira de Lima Neto </a><br>
 <a href="https://github.com/giovannadiodato">- Giovanna Ferreira Diodato</a><br>
 <a href="https://github.com/felipetiozo">- Felipe de Souza Tiozo</a><br>
 <br>
