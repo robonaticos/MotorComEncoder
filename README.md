@@ -35,6 +35,17 @@ https://www.tinkercad.com/things/9quqieeksfp
 
 Informações técnicas dos motores de LEGO você encontra em: <br>
 http://www.philohome.com/motors/motorcomp.htm
+<br>
+
+<h2>O que são portas de <b>Interrupção</b> e por que utilizá-las?</h2><br>
+No Arduino, assim como em qualquer outro microcontrolador, pode-se utilizar interrupções para priorizar ou não tarefas afim de realiza-las no momento em que a interrupção for detectada.
+<br><br>
+As portas de interrupção ou também conhecidas como <i>interrupts</i> param a execução do código para realizar uma tarefa que pode ter sido detectada por uma ação externa (um botão pressionado, um sensor lido...) ou por detecções em software (temporizadores ou sinais na própria programação). Ao final da tarefa detectada pela interrupção, o código continua normalmente.
+<br><br>
+No caso de leitura de pulsos no encoders devemos usar portas de interrupção para que a leitura seja feita na mudança de estado do encoder e não atrasando todo o processamento do microcontrolador. Em muitos casos, o microcontrolador é responsável por mais de uma tarefa além da leitura dos encoders e por conta disso é indispensável a utilização do uso de portas de interrupção. É altamente recomendável utilizar um único microcontrolador somente para a leitura e controle dos motores/encoders, para não sobrecarregar as suas tarefas e conseguir rodar tranquilamente as tasks do seu robô/projeto.
+<br><br>
+Maiores informações de portas de interrupção e quais são elas, consulte em:<br>
+https://www.arduino.cc/en/Reference/AttachInterrupt
 
 <h2>Rodando a programação</h2>
 
