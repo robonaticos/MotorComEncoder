@@ -37,7 +37,7 @@ Informações técnicas dos motores de LEGO você encontra em: <br>
 http://www.philohome.com/motors/motorcomp.htm
 <br>
 
-<h2>O que são portas de <b>Interrupção</b> e por que utilizá-las?</h2><br>
+<h2>O que são portas de <b>interrupção</b> e por que utilizá-las?</h2>
 No Arduino, assim como em qualquer outro microcontrolador, pode-se utilizar interrupções para priorizar ou não tarefas afim de realiza-las no momento em que a interrupção for detectada.
 <br><br>
 As portas de interrupção ou também conhecidas como <i>interrupts</i> param a execução do código para realizar uma tarefa que pode ter sido detectada por uma ação externa (um botão pressionado, um sensor lido...) ou por detecções em software (temporizadores ou sinais na própria programação). Ao final da tarefa detectada pela interrupção, o código continua normalmente.
